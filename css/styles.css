@@ -6,8 +6,21 @@ body {
   margin: auto;
   width: 30%;
   border: 3px solid grey;
-  padding: 10px;
-  height:200px;
+  padding: 20px;
+  height: 200px;
+  background-color: #616d75;
+}
+
+#diceGen{
+  height: 65px;
+  width: 75px;
+  padding: 30px;
+  border-radius: 15px;
+  font-size: 70px;
+  color: #faba0a;
+
+
+
 }
 
 #playerOneCard {
