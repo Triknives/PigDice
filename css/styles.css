@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+}
+
+#genCard {
+  margin-top: 150px;
+}
+
+#playerOneCard {
+  width: 48%;
+  float:left;
+  margin: 10px;
+  margin-top: 110px;
+}
+
+#playerTwoCard {
+  width: 48%;
+  float:left;
+  margin: 10px;
+  margin-top: 110px;
+}
