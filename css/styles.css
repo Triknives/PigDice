@@ -1,5 +1,20 @@
 body {
+  background-color: #e9ecef;
+}
+
+.jumbotron {
   text-align: center;
+  background-color: #616d75;
+  color: #faba0a;
+
+}
+
+.playerOneTitle {
+  color: blue;
+}
+
+.playerTwoTitle {
+  color: red;
 }
 
 #genCard {
@@ -9,6 +24,7 @@ body {
   padding: 20px;
   height: 200px;
   background-color: #616d75;
+  text-align: center;
 }
 
 #diceGen{
@@ -18,17 +34,20 @@ body {
   border-radius: 15px;
   font-size: 70px;
   color: #faba0a;
-
-
-
+  text-align: center;
 }
 
+
+
 #playerOneCard {
-  width: 47%;
+  width: 48%;
   float:left;
   margin: 10px;
   margin-top: 100px;
   border: 3px solid grey;
+  background-color: #616d75;
+  color: #faba0a;
+  font-size: 35px;
 }
 
 #playerTwoCard {
@@ -37,4 +56,7 @@ body {
   margin: 10px;
   margin-top: 100px;
   border: 3px solid grey;
+  background-color: #616d75;
+  color: #faba0a;
+  font-size: 35px;
 }

@@ -19,7 +19,7 @@
     </div>
     <div id="playerOneCard"class="card">
       <div class="card-body">
-        <h5 class="card-title">Player One</h5>
+        <h3 class="playerOneTitle">Player One</h3>
         <p class="card-text">Turn Bank:  <span id="pOneTurnBank"></span></p>
         <p class="card-text">Overall Bank:  <span id="pOneBank"></span></p>
         <button type="button" id="playerOneRollBtn" class="btn btn-primary">Roll</button>
@@ -29,7 +29,7 @@
     </div>
     <div id="playerTwoCard"class="card">
       <div class="card-body">
-        <h5 class="card-title">Player Two</h5>
+        <h3 class="playerTwoTitle">Player Two</h3>
         <p class="card-text">Turn Bank:<span id="pTwoTurnBank"></span></p>
         <p class="card-text">Overall Bank:<span id="pTwoBank"></span></p>
         <button type="button" id="PlayerTwoRollBtn"class="btn btn-primary">Roll</button>
@@ -41,7 +41,9 @@
     <p>Here are some quick rules for how to play Pig Dice!</p>
     Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":
     <ul>
-      <li></li>
+      <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+      <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+      <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
     </ul>
 
   </div>
