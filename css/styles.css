@@ -9,6 +9,10 @@ body {
 
 }
 
+#jumobotext {
+  font-size: 70px;
+}
+
 .playerOneTitle {
   color: blue;
 }
@@ -59,4 +63,10 @@ body {
   background-color: #616d75;
   color: #faba0a;
   font-size: 35px;
+}
+
+.rules{
+  position: fixed;
+  margin-top:350px;
+  margin-left: 15px;
 }
